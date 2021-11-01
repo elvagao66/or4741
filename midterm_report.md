@@ -41,6 +41,7 @@ However, the trend variates between the two city.
  2. Iquitos
    * has a smaller number of cases on average
    * same lever of Dengue Fever outbreak happens during the first 10 weeks and last 15 weeks of the year. 
+
 <img src="https://user-images.githubusercontent.com/57336981/139634713-fdb708f5-042a-4fb3-b9f3-73a75f696957.png" width="500" height="350" /> 
 <img src="https://user-images.githubusercontent.com/57336981/139634759-e737db0f-c343-4a22-876b-578abf1d77eb.png" width="500" height="350" />   
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(fig3: trend of outbreak over the year in San Juan)  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (fig4: trend of outbreak over the year in Iquitos)   
