@@ -22,7 +22,7 @@ The label dataset includes four columns which include
 We noticed that the data are for two different cities, noted as sj and iq, representing San Juan and Iquitos. Thus, we will be looking into the data corresponding to the individual city. 
 
 ### Data Cleaning
-* All variables were casted to appropriate types: categorical feature like the name of the city was one-hot encoded.
+* All variables were casted to appropriate types: categorical feature like the name of the city was one-hot encoded. 
 * Imputed missing values based on the average of the previous and next values
 * Dropped the column of "week_start_date" as this is a redundant information since we have both year and weekofyear as features.
 
@@ -40,7 +40,8 @@ In order to see trends from other presepctives, we then created box plot for eac
 With the goal of understanding what might be a determining factor of causing the local Dengue Fever, we created a heatmap to further examine the correlation between different features.   
  <img src="https://user-images.githubusercontent.com/57336981/139689303-9d56b2f2-f67b-4403-9ded-538502d03dbe.png" width="500" height="500" /> 
  <img src="https://user-images.githubusercontent.com/57336981/139702164-5797bca3-c87b-40fb-a778-bb89e076c1f3.png" width="500" height="500" /> 
-
+ &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;(fig5: correlation of features in San Juan) &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;(fig6: correlation of features in Iquitos)     
+Observation: ndvi_ne, ndvi_nw, ndvi_se, ndvi_sw highly correlated reanalysis_air_temp_k, reanalysis_avg_temp_k highly correlatedreanalysis_sat_precip_amt_mm, precipitation_amt_mm highly correlated
 
 
 
