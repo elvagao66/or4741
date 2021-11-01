@@ -13,7 +13,7 @@ The features dataset includes data that can be categorized into four groups:
 * ***Satellite vegetation - Normalized difference vegetation index (NDVI) - NOAA's CDR Normalized Difference Vegetation Index (0.5x0.5 degree scale) measurements***: which includes four features (`ndvi_ne`, `ndvi_nw`, `ndvi_se`, `ndvi_sw`) that individually corresponds to the southeast, southwest, northeast and northwest of city centroid. 
 All of the features that are mentioned above, unless stated, are in numerical form.
 
-The label dataset includes four columns which include 
+The label dataset includes four columns which include:
 * `city` - categorical data representing different cities
 * `year` - an integer between 1990 and 2010; it denotes the year that the data is recorded
 * `weekofyear` - an integer ranging from 1 to 53; it denotes the number of week in the year that the data is been recorded
@@ -26,7 +26,7 @@ We noticed that the data are for two different cities, noted as sj and iq, repre
 * Imputed missing values based on the average of the previous and next values
 * Dropped the column of `week_start_date` as this is a redundant information since we have both year and `weekofyear` as features.
 
-### Exploratory Analysis & Visualisations
+## 3. Exploratory Analysis & Visualisations
 We started the analysis with look over the trends of different features. First we started with checking if the disease has seasonality. 
 These two line graphs show the trends of disease outbreak in sj and iq.    
 <img src="https://user-images.githubusercontent.com/57336981/139634017-eb44bc07-2604-4233-8780-f13869136219.png" width="500" height="300" /> 
