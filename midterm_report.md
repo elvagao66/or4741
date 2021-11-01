@@ -50,5 +50,12 @@ Our interpretation and hypothesis of the results:
 1. For iq, its smallest eigenvalue might indicate that there are strong multicollinearity problems or that the design matrix is singular.
 2. Both standard Errors in the two outcomes assume that the covariance matrix of the errors is correctly specified.
 3. For sj, its smallest eigenvalue is 2.93e-25 which might indicate that there are strong multicollinearity problems or that the design matrix is singular. 
+4. R^2 is the coefficient of determination that tells us that how much percentage variation independent variable can be explained by independent variable. Here, ～20% variation in the total cases data can be explained by the features that are listed. The maximum possible value of R2 can be 1, means the larger the R2 value the better the regression.
+
+As we noticed that there can be further improvements 
 
 ### Validation and Next Steps
+* Next, we plan on to evaluate models using k-fold cross validation to ensure the result that is produced by a model isn't biased due to how the data has been categorized.
+* Engage feature selection in order to reduce variability of data as well as making data conform to normality. As the values of r-squred aren't as significant as we have expected, we want to further examine whether we should take all 21 dependent variables into account. For example, we might can check the p-value or compare anova test for feature selection
+* Apply feature transformation in order to reduce variability of the data and make data conform to normality. 
+* Implement random forest decision tree for limitting overfitting without substantially increasing error due to bias.
