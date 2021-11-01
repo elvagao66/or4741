@@ -40,4 +40,9 @@ In order to see trends from other presepctives, we then created box plot for eac
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(fig3: trend of outbreak over the year in San Juan)  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (fig4: trend of outbreak over the year in Iquitos)
 
 
+
+
+
+
+
 ### Validation and Next Steps
