@@ -37,8 +37,8 @@ In order to see trends from other presepctives, we then created box plot for eac
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="https://user-images.githubusercontent.com/57336981/139634713-fdb708f5-042a-4fb3-b9f3-73a75f696957.png" width="400" height="300" />  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 <img src="https://user-images.githubusercontent.com/57336981/139634759-e737db0f-c343-4a22-876b-578abf1d77eb.png" width="400" height="300" />   
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(fig3: trend of outbreak over the year in San Juan)  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (fig4: trend of outbreak over the year in Iquitos)   
-
-<img src="https://user-images.githubusercontent.com/57336981/139689303-9d56b2f2-f67b-4403-9ded-538502d03dbe.png" width="700" height="700" /> 
+With the goal of understanding what might be a determining factor of causing the local Dengue Fever, we created a heatmap to further examine the correlation between different features. 
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/57336981/139689303-9d56b2f2-f67b-4403-9ded-538502d03dbe.png" width="700" height="700" /> 
 
 
 
