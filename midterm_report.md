@@ -20,18 +20,9 @@ The label dataset includes four columns which include
 * **Total Cases** - an integer denoting the number of cases 
 
 ### Cleaning & Null Data
-
-
-
-
-
-
-
-
-
-
-
-
+* All variables were casted to appropriate types: categorical feature like the name of the city was one-hot encoded.
+* Impute missing values based on the average of the previous and next values
+* Dropped the column of "week_start_date" as this is a redundant information since we have both year and weekofyear as features.
 
 
 ### Validation and Next Steps
