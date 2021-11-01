@@ -10,7 +10,7 @@ The features dataset includes data that can be categorized into four groups:
 * ***NOAA's GHCN daily climate data weather station measurements*** which includes five different features that corresponds to the maximum and minimum value, average and also the range of temperature as well as total precipitation
 * ***Persiann satellite precipitation measurements*** includes one feature which is **Precipitation_amt_mm**, representing the total precipitation. 
 * ***NOAA's NCEP Climate Forecast System Reanalysis measurements*** includes 10 different features that corrsponds to total precipitation (unit: amt_mm_, mean dew point temperature, mean air temperature, mean relative and specific humidity, total precipitation (unit: kg/m^2), max and minimum air temperature and diurnal temperature range. 
-* ***Satellite vegetation - Normalized difference vegetation index (NDVI) - NOAA's CDR Normalized Difference Vegetation Index (0.5x0.5 degree scale) measurements*** includes four features that individually corresponds to the southeast, southwest, northeast and northwest of city centroid. 
+* ***Satellite vegetation - Normalized difference vegetation index (NDVI) - NOAA's CDR Normalized Difference Vegetation Index (0.5x0.5 degree scale) measurements*** includes four features **(ndvi_ne, ndvi_nw, ndvi_se, ndvi_sw)** that individually corresponds to the southeast, southwest, northeast and northwest of city centroid. 
 All of the features that are mentioned above, unless stated, are in numerical form.
 
 The label dataset includes four columns which include 
@@ -40,10 +40,10 @@ In order to see trends from other presepctives, we then created box plot for eac
 With the goal of understanding what might be a determining factor of causing the local Dengue Fever, we created a heatmap to further examine the correlation between different features.   
  <img src="https://user-images.githubusercontent.com/57336981/139689303-9d56b2f2-f67b-4403-9ded-538502d03dbe.png" width="500" height="500" /> 
  <img src="https://user-images.githubusercontent.com/57336981/139702164-5797bca3-c87b-40fb-a778-bb89e076c1f3.png" width="500" height="500" /> 
- &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;(fig5: correlation of features in San Juan) &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;(fig6: correlation of features in Iquitos)     
-Observation: ndvi_ne, ndvi_nw, ndvi_se, ndvi_sw highly correlated reanalysis_air_temp_k, reanalysis_avg_temp_k highly correlatedreanalysis_sat_precip_amt_mm, precipitation_amt_mm highly correlated
+ &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;(fig5: correlation of features in San Juan) &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;(fig6: correlation of features in Iquitos)       
+Observation: Satellite vegetation indices (ndvi_ne, ndvi_nw, ndvi_se, ndvi_sw) are highly correlated to temperature features (reanalysis_air_temp_k, reanalysis_avg_temp_k).Total cases from both cities are related to the weather (described by features including average temperature and humidity), however, different from our expectation, aren't highly correlated to any of the features that are being examined. 
 
-
+### First Models
 
 
 
