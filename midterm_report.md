@@ -24,7 +24,7 @@ We noticed that the data are for two different cities, noted as sj and iq, repre
 ### Data Cleaning
 * All variables were casted to appropriate types: categorical feature like the name of the city was one-hot encoded. 
 * Imputed missing values based on the average of the previous and next values
-* Dropped the column of "week_start_date" as this is a redundant information since we have both year and weekofyear as features.
+* Dropped the column of `week_start_date` as this is a redundant information since we have both year and weekofyear as features.
 
 ### Exploratory Analysis & Visualisations
 We started the analysis with look over the trends of different features. First we started with checking if the disease has seasonality. 
