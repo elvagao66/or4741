@@ -19,12 +19,20 @@ The label dataset includes four columns which include
 * **Week Of Year** - an integer ranging from 1 to 53; it denotes the number of week in the year that the data is been recorded
 * **Total Cases** - an integer denoting the number of cases 
 
-### Cleaning & Null Data
+We noticed that the data are for two different cities, noted as sj and iq, representing San Juan and Iquitos. Thus, we will be looking into the data corresponding to the individual city. 
+
+### Data Cleaning
 * All variables were casted to appropriate types: categorical feature like the name of the city was one-hot encoded.
 * Impute missing values based on the average of the previous and next values
 * Dropped the column of "week_start_date" as this is a redundant information since we have both year and weekofyear as features.
 
 ### Exploratory Analysis & Visualisations
+We started the analysis with look over the trends of different features. First we started with checking if the disease has seasonality. 
+These two line graphs show the trends of disease outbreak in sj and iq. 
+![Screen Shot 2021-11-01 at 3 02 12 AM](https://user-images.githubusercontent.com/57336981/139634017-eb44bc07-2604-4233-8780-f13869136219.png)
+[fig1: trend of outbreak time of the year in San Juan]
+![Screen Shot 2021-11-01 at 3 03 02 AM](https://user-images.githubusercontent.com/57336981/139634081-f416d5b7-7228-4b5d-856a-fd764d3f7231.png)
+[fig2: trend of outbreak time of the year in Iquitos]
 
 
 
