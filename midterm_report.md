@@ -52,7 +52,7 @@ Our interpretation and hypothesis of the results:
 3. For sj, its smallest eigenvalue is 2.93e-25 which might indicate that there are strong multicollinearity problems or that the design matrix is singular. 
 4. R^2 is the coefficient of determination that tells us that how much percentage variation independent variable can be explained by independent variable. Here, ～20% variation in the total cases data can be explained by the features that are listed. The maximum possible value of R2 can be 1, means the larger the R2 value the better the regression.
 
-As we noticed that there can be further improvements 
+As we noticed that there can be further improvements.
 
 ## 5. Validation and Next Steps
 * Next, we plan on to evaluate models using k-fold cross validation to ensure the result that is produced by a model isn't biased due to how the data has been categorized.
