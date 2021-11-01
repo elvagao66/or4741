@@ -34,10 +34,10 @@ These two line graphs show the trends of disease outbreak in sj and iq.
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;(fig1: trend of outbreak time of the year in San Juan) &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;(fig2: trend of outbreak time of the year in Iquitos)
 
 From the two graphs that are shown above, both shown a similar trend, with San Juan's more obvious, that the Dengue Fever outbreaks during the first 10 weeks and also the last 15-20 weeks of the year. 
-In order to see trends from other presepctives, we then created box plot for each city, denoting the trend of Dengue fever outbreak over the years. 
-![Screen Shot 2021-11-01 at 3 09 31 AM](https://user-images.githubusercontent.com/57336981/139634713-fdb708f5-042a-4fb3-b9f3-73a75f696957.png)
+In order to see trends from other presepctives, we then created box plot for each city, denoting the trend of Dengue fever outbreak over the years.   
+<img src="https://user-images.githubusercontent.com/57336981/139634713-fdb708f5-042a-4fb3-b9f3-73a75f696957.png" width="500" height="300" />
+<img src="https://user-images.githubusercontent.com/57336981/139634759-e737db0f-c343-4a22-876b-578abf1d77eb.png" width="500" height="300" />   
 [fig3: trend of outbreak over the year in San Juan]
-![Screen Shot 2021-11-01 at 3 10 05 AM](https://user-images.githubusercontent.com/57336981/139634759-e737db0f-c343-4a22-876b-578abf1d77eb.png)
 [fig4: trend of outbreak over the year in Iquitos]
 
 
