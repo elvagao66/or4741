@@ -44,8 +44,11 @@ With the goal of understanding what might be a determining factor of causing the
 Observation: Satellite vegetation indices (ndvi_ne, ndvi_nw, ndvi_se, ndvi_sw) are highly correlated to temperature features (reanalysis_air_temp_k, reanalysis_avg_temp_k).Total cases from both cities are related to the weather (described by features including average temperature and humidity), however, different from our expectation, aren't highly correlated to any of the features that are being examined. 
 
 ### First Models
+We first trained a linear regression using OLS on the total cases and city features with one hot encoding for nominal features. We applied the model onto both cities. The iq data set had the smallest eigenvalue as 1.34e-26 and the sj data set had the smallest eigenvalue as 2.93e-25.   
 
-
-
+Our interpretation and hypothesis of the results:  
+1. For iq, its smallest eigenvalue might indicate that there are strong multicollinearity problems or that the design matrix is singular.
+2. Both standard Errors in the two outcomes assume that the covariance matrix of the errors is correctly specified.
+3. For sj, its smallest eigenvalue is 2.93e-25 which might indicate that there are strong multicollinearity problems or that the design matrix is singular. 
 
 ### Validation and Next Steps
