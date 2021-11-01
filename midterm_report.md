@@ -28,7 +28,7 @@ We noticed that the data are for two different cities, noted as sj and iq, repre
 
 ### Exploratory Analysis & Visualisations
 We started the analysis with look over the trends of different features. First we started with checking if the disease has seasonality. 
-These two line graphs show the trends of disease outbreak in sj and iq. 
+These two line graphs show the trends of disease outbreak in sj and iq. \ 
 <img src="https://user-images.githubusercontent.com/57336981/139634017-eb44bc07-2604-4233-8780-f13869136219.png" width="500" height="300" />
 ![Screen Shot 2021-11-01 at 3 02 12 AM](https://user-images.githubusercontent.com/57336981/139634017-eb44bc07-2604-4233-8780-f13869136219.png)
 [fig1: trend of outbreak time of the year in San Juan]
