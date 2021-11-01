@@ -9,7 +9,7 @@ The features dataset includes data that can be categorized into four groups:
 * ***City and data indicators*** : which includes `city` (categorical data) and  `week_start_date` (in abbrev. number format).
 * ***NOAA's GHCN daily climate data weather station measurements***: which includes five different features that corresponds to the maximum and minimum value, average and also the range of temperature as well as total precipitation.
 * ***Persiann satellite precipitation measurements***: which includes one feature which is `precipitation_amt_mm`, representing the total precipitation. 
-* ***NOAA's NCEP Climate Forecast System Reanalysis measurements***: which includes 10 different features that corrsponds to total precipitation (unit: amt_mm_, mean dew point temperature, mean air temperature, mean relative and specific humidity, total precipitation (unit: kg/m^2), max and minimum air temperature and diurnal temperature range. 
+* ***NOAA's NCEP Climate Forecast System Reanalysis measurements***: which includes 10 different features that corrsponds to total precipitation (unit: amt/mm）, mean dew point temperature, mean air temperature, mean relative and specific humidity, total precipitation (unit: kg/m^2), max and minimum air temperature and diurnal temperature range. 
 * ***Satellite vegetation - Normalized difference vegetation index (NDVI) - NOAA's CDR Normalized Difference Vegetation Index (0.5x0.5 degree scale) measurements***: which includes four features (`ndvi_ne`, `ndvi_nw`, `ndvi_se`, `ndvi_sw`) that individually corresponds to the southeast, southwest, northeast and northwest of city centroid. 
 All of the features that are mentioned above, unless stated, are in numerical form.
 
@@ -47,7 +47,7 @@ The two graphs above reveal how the distribution of number of cases each year ch
 With the goal of understanding what might be a determining factor of causing the local Dengue Fever, we created a heatmap to further examine the correlation between different features.   
  <img src="https://user-images.githubusercontent.com/57336981/139756391-1d8975d7-20aa-4ef7-9e4c-981e35e974d6.png" width="500" height="500" /> 
  <img src="https://user-images.githubusercontent.com/57336981/139756435-680f24e0-6162-4fea-864b-63e5776be3b2.png" width="500" height="500" />        
-Observation: Satellite vegetation indices (ndvi_ne, ndvi_nw, ndvi_se, ndvi_sw) are highly correlated to temperature features (reanalysis_air_temp_k, reanalysis_avg_temp_k).Total cases from both cities are related to the weather (described by features including average temperature and humidity), however, different from our expectation, aren't highly correlated to any of the features that are being examined. 
+Observation: Satellite vegetation indices (`ndvi_ne`, `ndvi_nw`, `ndvi_se`, `ndvi_sw`) are highly correlated to temperature features (`reanalysis_air_temp_k`, `reanalysis_avg_temp_k`).Total cases from both cities are related to the weather (described by features including average temperature and humidity), however, different from our expectation, aren't highly correlated to any of the features that are being examined. 
 
 ## 4. First Models
 We first trained a linear regression using OLS on the total cases and city features with one hot encoding for nominal features. We applied the model onto both cities. The iq data set had the smallest eigenvalue as 1.34e-26 and the sj data set had the smallest eigenvalue as 2.93e-25.   
@@ -55,7 +55,7 @@ We first trained a linear regression using OLS on the total cases and city featu
 Our interpretation and hypothesis of the results:  
 1. For iq, its smallest eigenvalue might indicate that there are strong multicollinearity problems or that the design matrix is singular.
 2. Both standard Errors in the two outcomes assume that the covariance matrix of the errors is correctly specified.
-3. For sj, its smallest eigenvalue is 2.93e-25 which might indicate that there are strong multicollinearity problems or that the design matrix is singular. 
+3. For sj, its smallest eigenvalue is \\( 2.93*10^(-25) \\) which might indicate that there are strong multicollinearity problems or that the design matrix is singular. 
 4. R^2 is the coefficient of determination that tells us that how much percentage variation independent variable can be explained by independent variable. Here, ～20% variation in the total cases data can be explained by the features that are listed. The maximum possible value of R2 can be 1, means the larger the R2 value the better the regression.
 
 As we noticed that there can be further improvements.
