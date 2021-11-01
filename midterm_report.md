@@ -43,7 +43,7 @@ However, the trend variates between the two city.
    * same lever of Dengue Fever outbreak happens during the first 10 weeks and last 15 weeks of the year. 
 
 <img src="https://user-images.githubusercontent.com/57336981/139634713-fdb708f5-042a-4fb3-b9f3-73a75f696957.png" width="500" height="350" /> 
-<img src="https://user-images.githubusercontent.com/57336981/139634759-e737db0f-c343-4a22-876b-578abf1d77eb.png" width="500" height="350" />   
+<img src="https://user-images.githubusercontent.com/57336981/139634759-e737db0f-c343-4a22-876b-578abf1d77eb.png" width="500" height="350" />     
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(fig3: trend of outbreak over the year in San Juan)  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (fig4: trend of outbreak over the year in Iquitos)   
 
 The two graphs above reveal how the distribution of number of cases each year changed over time. We can observe that the number of cases tend to decrease over time in San Juan while showing a increase trend in Iquitos. At the same time, the number of cases increased each month tend to spread out more and has more skewnedd in San Juan in comparison to Iquitos. The above observation indicates that there are different pattern of Denque Fever in San Juan and Iquitos. Thus, we decided to train a model for each of the two cities. 
