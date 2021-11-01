@@ -14,10 +14,10 @@ The features dataset includes data that can be categorized into four groups:
 All of the features that are mentioned above, unless stated, are in numerical form.
 
 The label dataset includes four columns which include 
-**City** - categorical data representing different cities
-**Year** - an integer between 1990 and 2010; it denotes the year that the data is recorded
-**Week Of Year** - an integer ranging from 1 to 53; it denotes the number of week in the year that the data is been recorded
-**Total Cases** - an integer denoting the number of cases 
+* **City** - categorical data representing different cities
+* **Year** - an integer between 1990 and 2010; it denotes the year that the data is recorded
+* **Week Of Year** - an integer ranging from 1 to 53; it denotes the number of week in the year that the data is been recorded
+* **Total Cases** - an integer denoting the number of cases 
 
 ### Cleaning & Null Data
 
