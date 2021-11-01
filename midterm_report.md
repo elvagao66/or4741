@@ -19,7 +19,7 @@ The label dataset includes four columns which include:
 * `weekofyear` - an integer ranging from 1 to 53; it denotes the number of week in the year that the data is been recorded
 * `total_cases` - an integer denoting the number of cases 
 
-We noticed that the data are for two different cities, noted as sj and iq, representing San Juan and Iquitos. Thus, we will be looking into the data corresponding to the individual city. 
+We noticed that our dataset include information about two different cities, San Juan and Iquitos. We will compare the similarity and difference of data distribution of the two city to decided whether we could use one general model to make prediction
 
 ## 2. Data Cleaning
 * All variables were casted to appropriate types: categorical feature like the name of the city was one-hot encoded. 
