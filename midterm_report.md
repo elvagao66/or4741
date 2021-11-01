@@ -6,11 +6,11 @@ We used the Dengue Fever data from [Drivendata.com]( https://www.drivendata.org/
 Before we start data cleaning process, we looked at the two files more in details. 
 
 The features dataset includes data that can be categorized into four groups: 
-* ***City and data indicators*** which includes `city` (categorical data) and  `week_start_date` (in abbrev. number format).
-* ***NOAA's GHCN daily climate data weather station measurements*** which includes five different features that corresponds to the maximum and minimum value, average and also the range of temperature as well as total precipitation.
-* ***Persiann satellite precipitation measurements*** includes one feature which is `precipitation_amt_mm`, representing the total precipitation. 
-* ***NOAA's NCEP Climate Forecast System Reanalysis measurements*** includes 10 different features that corrsponds to total precipitation (unit: amt_mm_, mean dew point temperature, mean air temperature, mean relative and specific humidity, total precipitation (unit: kg/m^2), max and minimum air temperature and diurnal temperature range. 
-* ***Satellite vegetation - Normalized difference vegetation index (NDVI) - NOAA's CDR Normalized Difference Vegetation Index (0.5x0.5 degree scale) measurements*** includes four features (`ndvi_ne`, `ndvi_nw`, `ndvi_se`, `ndvi_sw`) that individually corresponds to the southeast, southwest, northeast and northwest of city centroid. 
+* ***City and data indicators*** : which includes `city` (categorical data) and  `week_start_date` (in abbrev. number format).
+* ***NOAA's GHCN daily climate data weather station measurements***: which includes five different features that corresponds to the maximum and minimum value, average and also the range of temperature as well as total precipitation.
+* ***Persiann satellite precipitation measurements***: which includes one feature which is `precipitation_amt_mm`, representing the total precipitation. 
+* ***NOAA's NCEP Climate Forecast System Reanalysis measurements***: which includes 10 different features that corrsponds to total precipitation (unit: amt_mm_, mean dew point temperature, mean air temperature, mean relative and specific humidity, total precipitation (unit: kg/m^2), max and minimum air temperature and diurnal temperature range. 
+* ***Satellite vegetation - Normalized difference vegetation index (NDVI) - NOAA's CDR Normalized Difference Vegetation Index (0.5x0.5 degree scale) measurements***: which includes four features (`ndvi_ne`, `ndvi_nw`, `ndvi_se`, `ndvi_sw`) that individually corresponds to the southeast, southwest, northeast and northwest of city centroid. 
 All of the features that are mentioned above, unless stated, are in numerical form.
 
 The label dataset includes four columns which include 
