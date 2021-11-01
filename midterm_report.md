@@ -43,7 +43,7 @@ With the goal of understanding what might be a determining factor of causing the
  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;(fig5: correlation of features in San Juan) &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;(fig6: correlation of features in Iquitos)       
 Observation: Satellite vegetation indices (ndvi_ne, ndvi_nw, ndvi_se, ndvi_sw) are highly correlated to temperature features (reanalysis_air_temp_k, reanalysis_avg_temp_k).Total cases from both cities are related to the weather (described by features including average temperature and humidity), however, different from our expectation, aren't highly correlated to any of the features that are being examined. 
 
-## 3. First Models
+## 4. First Models
 We first trained a linear regression using OLS on the total cases and city features with one hot encoding for nominal features. We applied the model onto both cities. The iq data set had the smallest eigenvalue as 1.34e-26 and the sj data set had the smallest eigenvalue as 2.93e-25.   
 
 Our interpretation and hypothesis of the results:  
@@ -54,7 +54,7 @@ Our interpretation and hypothesis of the results:
 
 As we noticed that there can be further improvements 
 
-## 4. Validation and Next Steps
+## 5. Validation and Next Steps
 * Next, we plan on to evaluate models using k-fold cross validation to ensure the result that is produced by a model isn't biased due to how the data has been categorized.
 * Engage feature selection in order to reduce variability of data as well as making data conform to normality. As the values of r-squred aren't as significant as we have expected, we want to further examine whether we should take all 21 dependent variables into account. For example, we might can check the p-value or compare anova test for feature selection
 * Apply feature transformation in order to reduce variability of the data and make data conform to normality. 
